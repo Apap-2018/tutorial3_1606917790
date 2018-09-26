@@ -1,0 +1,10 @@
+Pertanyaan 1: Halaman menampilkan text "Data Berhasil Ditambahkan".
+Pertanyaan 2: Terjadi whitelabel error page karena method pada URL tersebut meminta
+parameter "flyHour" yang tidak diisi sedangkan required=true.
+Pertanyaan 3: ya
+Pertanyaan 4: tidak. Karena didalam method, attribute pilot yang dikirim ke view
+berisi null. Maka ketika dipanggil attribute dari pilot tersebut (contoh: pilot.flyhour)
+terjadi masalah karena null tidak memiliki attribute apapun. Penjelasan lainnya
+karena dilakukan re-run program, data yang pernah dimasukkan di reset kembali.
+Pertanyaan 5: ya
+Pertanyaan 6: ya
